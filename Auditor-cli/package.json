@@ -1,0 +1,26 @@
+{
+  "name": "angana-auditai-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "auditai": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "audit",
+    "smart contract",
+    "openai"
+  ],
+  "author": "Angana Boruah",
+  "license": "MIT",
+  "description": "A CLI tool to audit smart contracts using Gemini AI",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "inquirer": "^8.2.5"
+  }
+}
