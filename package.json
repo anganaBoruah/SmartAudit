@@ -2,8 +2,11 @@
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@tabler/icons-react": "^3.35.0",
+    "clsx": "^2.1.1",
+    "motion": "^12.23.24",
     "prismjs": "^1.30.0",
-    "react-simple-code-editor": "^0.14.1"
+    "react-simple-code-editor": "^0.14.1",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
     "@types/prismjs": "^1.26.5"

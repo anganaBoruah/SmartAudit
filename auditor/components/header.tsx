@@ -1,3 +1,6 @@
+"use client";
+
+import React from "react";
 import { WavyBackground } from "@/components/ui/wavy-background";
 
 export default function Header() {
